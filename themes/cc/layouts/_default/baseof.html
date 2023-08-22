@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='{{ .Site.LanguageCode }}'>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ block "title" . }}
+        {{- .Title }} - {{ .Site.Title -}}
+        {{ end }}</title>
+    {{- if .Description }}
+    <meta name="description" content="{{ .Description }}" />
+    {{ end -}}
+    {{- if .Keywords }}
+    <meta name="keywords" content="{{ delimit .Keywords " ," }}" />
+    {{ end -}}
+    {{- if .Params.Author }}
+    <meta name="author" content="{{ .Params.Author}}" />
+    {{ end -}}
+    {{ hugo.Generator }}
+
+    {{ partialCached "css.html" . }}
+</head>
+
+<body class="min-h-screen flex flex-col dark:bg-zinc-800 dark:text-zinc-200">
+    {{- block "main" . }}{{- end }}
+    {{- partial "footer.html" . -}}
+</body>
+
+</html>

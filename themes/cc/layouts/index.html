@@ -1,0 +1,12 @@
+{{ define "title" }}CiviCubed{{ end }}
+{{ define "main" }}
+<header class="w-full bg-header-image h-72 sm:h-96 grid place-content-center text-white space-y-3 text-center sm:text-left">
+    <h1 class="text-2xl sm:text-5xl font-bold">CiviCubed is coming on 30 November</h1>
+    <p class="text-xl sm:text-3xl">Craft diverse communities with unique laws, cultures, and governments</p>
+</header>
+<div class="w-full flex-grow flex flex-col items-center">
+    <article class="py-2 lg:py-4 px-4 w-full prose lg:prose-xl dark:prose-invert">
+        {{ .Content }}
+    </article>
+</div>
+{{ end }}
