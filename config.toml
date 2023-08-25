@@ -1,6 +1,6 @@
-baseURL = "https://civicubed.net/"
+baseURL = "https://civcubed.net/"
 languageCode = "en"
-title = "CiviCubed"
+title = "CivCubed"
 theme = "cc"
 paginate = 6
 DefaultContentLanguage = "en"

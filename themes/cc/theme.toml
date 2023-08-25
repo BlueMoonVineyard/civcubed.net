@@ -1,7 +1,7 @@
 name = "cc"
 license = "MIT"
-description = "CiviCubed theme"
-homepage = "http://civicubed.net/"
+description = "CivCubed theme"
+homepage = "http://civcubed.net/"
 tags = []
 features = []
 min_version = "0.88.0"
