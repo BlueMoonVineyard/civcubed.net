@@ -18,6 +18,12 @@
     {{ end -}}
     {{ hugo.Generator }}
 
+
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    <meta name="theme-color" content="#da2117">
+    <meta property="og:image" content="https://civcubed.net/img/opengraph-embed.png" />
+
     {{ partialCached "css.html" . }}
 </head>
 

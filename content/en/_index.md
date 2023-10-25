@@ -1,3 +1,6 @@
+---
+title: CivCubed
+---
 CivCubed is a collaborative and competitive worldbuilding server for players to form diverse communities, societies, cultures, legal systems, philosophies, and other social constructs within a world tailour-made for players to build in, to build with more than just blocks.
 
 CivCubed takes Minecraft in a uniquely social direction—it's not just about building blocks, it's about players being part of larger systems, about unique communities facing different pressures, both from the environment and from each other. Players work together to build things greater than themselves, but also watch those things crumble and grow old for a new generation to move into.
